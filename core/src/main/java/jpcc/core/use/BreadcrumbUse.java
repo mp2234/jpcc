@@ -14,16 +14,13 @@ public class BreadcrumbUse extends WCMUse {
 	protected final static Logger log = LoggerFactory.getLogger(BreadcrumbUse.class);
 	
 	private String PN_START_LEVEL = "startLevel";
-	
 	private Deque<Page> pages;
 	
 	public void activate() {
-		
-		pages = new ArrayDeque<Page>();
-		
 		int startLevel = getProperties().get(PN_START_LEVEL, 3);
 		Page current = getCurrentPage();
 		
+		pages = new ArrayDeque<Page>();
 		while(current.getDepth() >= startLevel) {
 			if(!current.getProperties().get("hideInNav", false)) {
 				pages.push(current);
