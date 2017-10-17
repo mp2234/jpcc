@@ -25,5 +25,5 @@
 
 ### Notes:
 * developed on 6.1(I don't have a 6.0 jar), so no guarantee it will work on 6.0 though the technology used should be available in 6.0 as well
-* unstyled
-
+* component is unstyled
+* included in this repo is the source code for the Breadcrumb useapi class(along with other classes from the archetype). The breadcrumb class is [here](https://github.com/mp2234/jpcc/blob/master/core/src/main/java/jpcc/core/use/BreadcrumbUse.java)
