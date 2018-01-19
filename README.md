@@ -34,8 +34,8 @@ Adobe Experience Manager – Software Engineer Code Challenge
 
 Please send back via GitHub 
 
-OBJECTIVE: Create a breadcrumbs component which is compatible with AEM 6.0 or higher. The deliverable should be an AEM package.
-ACCEPTANCE CRITERIA:
+* OBJECTIVE: Create a breadcrumbs component which is compatible with AEM 6.0 or higher. The deliverable should be an AEM package.
+* ACCEPTANCE CRITERIA:
 As a Content Author: I want to be able to exclude pages from the breadcrumb listing so that structural pages or pages not meant to be navigated to directly are not presented in this context.
 As a Site User: I want to be able to see where I am in the site’s content tree so that I understand the context of what I am viewing. I want to be able to navigate to where I have come from in the site so that I can easily jump back and forth between site sections.
-HOW TO SUBMIT: Send an email to our recruiters with a link to a public code repository or download location that can be shared with the public. You are free to post updates to your solution. You should not spend more than 2 hours on this code challenge. We are looking for a solid understanding of developing on AEM, in addition to a description of what can be done to improve your solution if given more time.
+* HOW TO SUBMIT: Send an email to our recruiters with a link to a public code repository or download location that can be shared with the public. You are free to post updates to your solution. You should not spend more than 2 hours on this code challenge. We are looking for a solid understanding of developing on AEM, in addition to a description of what can be done to improve your solution if given more time.
